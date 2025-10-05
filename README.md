@@ -46,52 +46,228 @@ DreamWave AI is a mobile application that transforms sleep and dream data into m
   <img src="https://img.shields.io/badge/AsyncStorage-3178C6?style=for-the-badge&logo=react&logoColor=white" alt="AsyncStorage" />
 </p>
 
-## Installation
-
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (v16 or newer)
-- [Expo CLI](https://docs.expo.dev/get-started/installation/)
-- [Git](https://git-scm.com/)
+- [React Native Documentation](https://reactnative.dev/docs/getting-started)
+- [Expo Documentation](https://docs.expo.dev/)
+- [Node.js Documentation](https://nodejs.org/en/docs/)
+- [Python Documentation](https://docs.python.org/3/)
 
-### Clone and Setup
+### For Mobile Development:
+- **Android Studio** (for Android development)
+- **Xcode** (for iOS development, macOS only)
 
-1. Clone the repository
-   ```bash
-   git clone https://github.com/yourusername/dreamwave-ai.git
-   cd dreamwave-ai
-   ```
 
-2. Install dependencies
-   ```bash
-   npm install
-   ```
+##  Installation & Setup
 
-3. Create necessary asset directories
-   ```bash
-   mkdir -p assets/images
-   ```
+### 1. Clone the Repository
 
-4. Add placeholder images for assets
-   - Place icons in `assets/images` directory:
-     - `icon.png` (1024x1024)
-     - `splash.png` (2048x2048)
-     - `adaptive-icon.png` (1024x1024)
-     - `favicon.png` (48x48)
+```bash
+git clone https://github.com/yash-agarwa-l/dream-wave.git
+cd dream-wave
+```
 
-### Running the App
+---
 
-Start the development server:
+### 2. Backend Setup (Node.js)
+
+Navigate to the backend directory:
+
+```bash
+cd backend
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create a `.env` file (if required):
+
+```env
+PORT=3000
+MONGO_URI=your_database_url
+STABILITY_API_KEY=api_key
+```
+
+Start the backend server:
+
+```bash
+npm run start
+```
+
+✅ The backend server will run on `http://localhost:3000`
+
+---
+
+### 3️⃣ ML Backend Setup (Python)
+
+Navigate to the ML backend directory:
+
+```bash
+cd ../ml-backend
+```
+
+Create a virtual environment (recommended):
+
+```bash
+python -m venv venv
+```
+
+Activate the virtual environment:
+
+**Windows:**
+```bash
+venv\Scripts\activate
+```
+
+**macOS/Linux:**
+```bash
+source venv/bin/activate
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Start the ML backend server:
+
+```bash
+python app.py
+```
+
+---
+
+### 4️⃣ Mobile App Setup (React Native/Expo)
+
+Navigate to the mobile app directory:
+
+```bash
+cd ../app
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create required asset directories:
+
+```bash
+mkdir -p assets/images
+```
+
+Add the following image assets to `assets/images/`:
+
+| File | Description | Size |
+|------|-------------|------|
+| `icon.png` | App icon | 1024×1024px |
+| `splash.png` | Splash screen | 2048×2048px |
+| `adaptive-icon.png` | Android adaptive icon | 1024×1024px |
+| `favicon.png` | Web favicon | 48×48px |
+
+> 💡 **Tip:** You can use placeholder images initially or generate them using [Figma](https://www.figma.com/) or [Canva](https://www.canva.com/).
+
+---
+
+## 🎮 Running the Application
+
+### Start the Development Server
+
 ```bash
 npm start
 ```
 
-Then follow the instructions in the terminal to open the app:
-- Press `a` to open on Android emulator/device
-- Press `i` to open on iOS simulator/device
-- Press `w` to open in web browser
+This will start the Expo development server and display a QR code in your terminal.
 
-## Usage
+### Launch Options
+
+Once the development server is running, press:
+
+| Key | Action |
+|-----|--------|
+| `a` | Open on Android emulator/device |
+| `i` | Open on iOS simulator/device (macOS only) |
+| `w` | Open in web browser |
+| `r` | Reload the app |
+| `m` | Toggle menu |
+| `j` | Open React DevTools |
+
+### 📱 Running on Physical Devices
+
+**Using Expo Go App:**
+
+1. Install the Expo Go app:
+   - [Android - Google Play Store](https://play.google.com/store/apps/details?id=host.exp.exponent)
+   - [iOS - App Store](https://apps.apple.com/app/expo-go/id982107779)
+
+2. Scan the QR code displayed in your terminal:
+   - **Android:** Use the Expo Go app
+   - **iOS:** Use the Camera app (it will open in Expo Go)
+
+---
+
+## 💻 Development Workflow
+
+Run all services simultaneously in separate terminals:
+
+**Terminal 1 - Node.js Backend:**
+```bash
+cd backend && npm run start
+```
+
+**Terminal 2 - ML Backend:**
+```bash
+cd ml-backend && python app.py
+```
+
+**Terminal 3 - Mobile App:**
+```bash
+cd mobile && npm start
+```
+
+> 🔥 **Hot Reload:** The app automatically reloads when you save changes!
+
+---
+
+## 🔧 Troubleshooting
+
+### Clear Expo Cache
+```bash
+npm start -- --clear
+```
+
+### Reset Metro Bundler
+```bash
+npm start -- --reset-cache
+```
+
+### Port Already in Use
+
+**Windows:**
+```bash
+netstat -ano | findstr :3000
+taskkill /PID <PID> /F
+```
+
+**macOS/Linux:**
+```bash
+lsof -ti:3000 | xargs kill -9
+```
+
+### Common Issues
+
+- **Metro bundler error:** Try clearing cache and restarting
+- **Module not found:** Run `npm install` again
+- **Python dependencies error:** Make sure virtual environment is activated
+- **Expo Go connection issues:** Ensure both devices are on the same network
+
+---
+
 
 ### Dashboard
 
