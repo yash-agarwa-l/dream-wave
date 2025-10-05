@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles for DreamWave */
+@layer base {
+  * {
+    @apply border-gray-200;
+  }
+  
+  body {
+    @apply bg-background-light text-gray-900;
+  }
+}
+
+@layer components {
+  .dream-card {
+    @apply bg-white rounded-2xl shadow-dream border border-gray-100 p-4;
+  }
+  
+  .dream-gradient {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  }
+  
+  .sleep-stage-rem {
+    @apply bg-purple-500 text-white;
+  }
+  
+  .sleep-stage-deep {
+    @apply bg-blue-600 text-white;
+  }
+  
+  .sleep-stage-light {
+    @apply bg-blue-400 text-white;
+  }
+  
+  .sleep-stage-wake {
+    @apply bg-green-500 text-white;
+  }
+  
+  .metric-card {
+    @apply bg-gradient-to-br from-primary-500 to-secondary-500 rounded-xl p-4 shadow-lg;
+  }
+}

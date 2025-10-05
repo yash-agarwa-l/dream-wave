@@ -1,0 +1,208 @@
+================================================================================
+================================================================================
+
+DREAM PROMPT #1
+------------------------------------------------------------
+Predicted Affect: Valence=-0.143, Arousal=0.863
+Key Physiology: REM=1.0, HR=68.4bpm
+------------------------------------------------------------
+
+=== DREAMBANK-INSPIRED VISUAL PROMPT ===
+
+CORE DREAM NARRATIVE (from DreamBank):
+Based on similar dreams with valence=-0.143, arousal=0.863
+
+EXTRACTED ELEMENTS:
+• Primary Emotions: fear, angry, anxious
+• Settings/Locations: home, transport, nature
+• Characters: family, unknown
+• Key Activities: conflict, creative
+• Dominant Themes: falling, chase
+
+VISUAL STYLE:
+• Atmosphere: balanced, realistic, everyday atmosphere
+• Color Palette: natural color palette, even lighting
+• Mood: Negative, High Energy
+
+PHYSIOLOGICAL INFLUENCES:
+• REM Activity: 1.0
+• Heart Rate: 68.4 bpm
+• Brain Waves: Gamma 10.000
+
+EXAMPLE DREAMBANK EXCERPTS:
+• i m in my? apartment, upstairs, at the end of a walkway with an open railing either i m just moving ...
+• i m in an upstairs balcony hall above a gym where basketball is being played. i crawl out of a small...
+
+FINAL IMAGE PROMPT:
+Create a dreamlike scene featuring home, transport with family, unknown.
+The scene shows conflict, creative with an overall balanced, realistic, everyday atmosphere.
+Use natural color palette, even lighting and convey emotions of fear, angry.
+Style: surreal, dreamlike, cinematic, high detail, photographic quality
+Themes: falling, chase
+
+================================================================================
+
+DREAM PROMPT #2
+------------------------------------------------------------
+Predicted Affect: Valence=-0.143, Arousal=0.863
+Key Physiology: REM=0.0, HR=71.7bpm
+------------------------------------------------------------
+
+=== DREAMBANK-INSPIRED VISUAL PROMPT ===
+
+CORE DREAM NARRATIVE (from DreamBank):
+Based on similar dreams with valence=-0.143, arousal=0.863
+
+EXTRACTED ELEMENTS:
+• Primary Emotions: fear, angry, anxious
+• Settings/Locations: home, transport, nature
+• Characters: family, unknown
+• Key Activities: conflict, creative
+• Dominant Themes: falling, chase
+
+VISUAL STYLE:
+• Atmosphere: balanced, realistic, everyday atmosphere
+• Color Palette: natural color palette, even lighting
+• Mood: Negative, High Energy
+
+PHYSIOLOGICAL INFLUENCES:
+• REM Activity: 0.0
+• Heart Rate: 71.7 bpm
+• Brain Waves: Gamma 8.900
+
+EXAMPLE DREAMBANK EXCERPTS:
+• i m in my? apartment, upstairs, at the end of a walkway with an open railing either i m just moving ...
+• i m in an upstairs balcony hall above a gym where basketball is being played. i crawl out of a small...
+
+FINAL IMAGE PROMPT:
+Create a dreamlike scene featuring home, transport with family, unknown.
+The scene shows conflict, creative with an overall balanced, realistic, everyday atmosphere.
+Use natural color palette, even lighting and convey emotions of fear, angry.
+Style: surreal, dreamlike, cinematic, high detail, photographic quality
+Themes: falling, chase
+
+================================================================================
+
+DREAM PROMPT #3
+------------------------------------------------------------
+Predicted Affect: Valence=0.132, Arousal=1.000
+Key Physiology: REM=5.0, HR=71.8bpm
+------------------------------------------------------------
+
+=== DREAMBANK-INSPIRED VISUAL PROMPT ===
+
+CORE DREAM NARRATIVE (from DreamBank):
+Based on similar dreams with valence=0.132, arousal=1.000
+
+EXTRACTED ELEMENTS:
+• Primary Emotions: happy, sad, anxious
+• Settings/Locations: unknown, home, nature
+• Characters: friends, family
+• Key Activities: creative, observing
+• Dominant Themes: water, chase
+
+VISUAL STYLE:
+• Atmosphere: balanced, realistic, everyday atmosphere
+• Color Palette: natural color palette, even lighting
+• Mood: Positive, High Energy
+
+PHYSIOLOGICAL INFLUENCES:
+• REM Activity: 5.0
+• Heart Rate: 71.8 bpm
+• Brain Waves: Gamma 29.600
+
+EXAMPLE DREAMBANK EXCERPTS:
+• i am waving good bye to a very dear friend. the distance between us is growing. i make the i love yo...
+• beautiful garden and burnt backs of houses. i am in a house. i slept the night with the daughter of ...
+
+FINAL IMAGE PROMPT:
+Create a dreamlike scene featuring unknown, home with friends, family.
+The scene shows creative, observing with an overall balanced, realistic, everyday atmosphere.
+Use natural color palette, even lighting and convey emotions of happy, sad.
+Style: surreal, dreamlike, cinematic, high detail, photographic quality
+Themes: water, chase
+
+================================================================================
+
+DREAM PROMPT #4
+------------------------------------------------------------
+Predicted Affect: Valence=-0.143, Arousal=0.863
+Key Physiology: REM=0.0, HR=51.1bpm
+------------------------------------------------------------
+
+=== DREAMBANK-INSPIRED VISUAL PROMPT ===
+
+CORE DREAM NARRATIVE (from DreamBank):
+Based on similar dreams with valence=-0.143, arousal=0.863
+
+EXTRACTED ELEMENTS:
+• Primary Emotions: fear, angry, anxious
+• Settings/Locations: home, transport, nature
+• Characters: family, unknown
+• Key Activities: conflict, creative
+• Dominant Themes: falling, chase
+
+VISUAL STYLE:
+• Atmosphere: balanced, realistic, everyday atmosphere
+• Color Palette: natural color palette, even lighting
+• Mood: Negative, High Energy
+
+PHYSIOLOGICAL INFLUENCES:
+• REM Activity: 0.0
+• Heart Rate: 51.1 bpm
+• Brain Waves: Gamma 13.600
+
+EXAMPLE DREAMBANK EXCERPTS:
+• i m in my? apartment, upstairs, at the end of a walkway with an open railing either i m just moving ...
+• i m in an upstairs balcony hall above a gym where basketball is being played. i crawl out of a small...
+
+FINAL IMAGE PROMPT:
+Create a dreamlike scene featuring home, transport with family, unknown.
+The scene shows conflict, creative with an overall balanced, realistic, everyday atmosphere.
+Use natural color palette, even lighting and convey emotions of fear, angry.
+Style: surreal, dreamlike, cinematic, high detail, photographic quality
+Themes: falling, chase
+
+================================================================================
+
+DREAM PROMPT #5
+------------------------------------------------------------
+Predicted Affect: Valence=-0.143, Arousal=0.863
+Key Physiology: REM=0.0, HR=76.9bpm
+------------------------------------------------------------
+
+=== DREAMBANK-INSPIRED VISUAL PROMPT ===
+
+CORE DREAM NARRATIVE (from DreamBank):
+Based on similar dreams with valence=-0.143, arousal=0.863
+
+EXTRACTED ELEMENTS:
+• Primary Emotions: fear, angry, anxious
+• Settings/Locations: home, transport, nature
+• Characters: family, unknown
+• Key Activities: conflict, creative
+• Dominant Themes: falling, chase
+
+VISUAL STYLE:
+• Atmosphere: balanced, realistic, everyday atmosphere
+• Color Palette: natural color palette, even lighting
+• Mood: Negative, High Energy
+
+PHYSIOLOGICAL INFLUENCES:
+• REM Activity: 0.0
+• Heart Rate: 76.9 bpm
+• Brain Waves: Gamma 10.000
+
+EXAMPLE DREAMBANK EXCERPTS:
+• i m in my? apartment, upstairs, at the end of a walkway with an open railing either i m just moving ...
+• i m in an upstairs balcony hall above a gym where basketball is being played. i crawl out of a small...
+
+FINAL IMAGE PROMPT:
+Create a dreamlike scene featuring home, transport with family, unknown.
+The scene shows conflict, creative with an overall balanced, realistic, everyday atmosphere.
+Use natural color palette, even lighting and convey emotions of fear, angry.
+Style: surreal, dreamlike, cinematic, high detail, photographic quality
+Themes: falling, chase
+
+================================================================================
+
