@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 const Schema = mongoose.Schema;
 
 const gameSchema = new Schema({
@@ -24,4 +24,4 @@ const gameSchema = new Schema({
   emotion: String,
 }, { timestamps: true });
 
-module.exports = mongoose.model('Game', gameSchema);
+export const Game = mongoose.model('Game', gameSchema);

@@ -1,14 +1,15 @@
-const mongoose = require('mongoose');
-const Schema = mongoose.Schema;
 
-const storySchema = new Schema({
+
+import mongoose from 'mongoose';
+
+const storySchema = new mongoose.Schema({
   userId: {
-    type: Schema.Types.ObjectId,
+    type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
     required: true,
   },
   journalEntryId: {
-    type: Schema.Types.ObjectId,
+    type: mongoose.Schema.Types.ObjectId,
     ref: 'JournalEntry',
   },
   title: String,
@@ -21,4 +22,4 @@ const storySchema = new Schema({
   theme: String,
 }, { timestamps: true });
 
-module.exports = mongoose.model('Story', storySchema);
+export const Story = mongoose.model('Story', storySchema);

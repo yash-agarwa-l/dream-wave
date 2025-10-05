@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 import { asyncHandler } from "../utils/asyncHandler.util.js";
 import { ApiError } from "../utils/api_errors.util.js";
 import { ApiResponse } from "../utils/api_response.util.js";
-import { SleepSession } from "../models/sleepSession.model.js";
+import { SleepSession } from "../models/sleep_session.model.js";
 
 const createSleepSession = asyncHandler(async (req, res) => {
     const { date, currentStatus, liveMetrics, sleepQuality, dreamData } = req.body;

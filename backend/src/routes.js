@@ -1,20 +1,23 @@
 import { Router } from "express";
-import { registerUser, loginUser, logoutUser } from "../controllers/user.controller.js";
-import { createStory, getUserStories, getStoryById, updateStory, deleteStory } from "../controllers/story.controller.js";
-import { createGame, getUserGames, getGameById, updateGame, deleteGame } from "../controllers/game.controller.js";
-import { createSleepSession, getUserSleepSessions, getSleepSessionById, updateSleepSession, deleteSleepSession } from "../controllers/sleep_session.controller.js";
-import { createJournalEntry, getUserJournalEntries, getJournalEntryById, updateJournalEntry, deleteJournalEntry } from "../controllers/journal_entry.controller.js";
-import { createGameResult, getGameResultsForUser, getGameResultsByGame, getGameResultById, deleteGameResult } from "../controllers/game_result.controller.js";
-import { verifyJWT } from "../middlewares/auth.middleware.js";
+import { registerUser, loginUser, logoutUser } from "./controllers/user.controller.js";
+import { createStory, getUserStories, getStoryById, updateStory, deleteStory } from "./controllers/story.controller.js";
+import { createGame, getUserGames, getGameById, updateGame, deleteGame } from "./controllers/game.controller.js";
+import { createSleepSession, getUserSleepSessions, getSleepSessionById, updateSleepSession, deleteSleepSession } from "./controllers/sleep_session.controller.js";
+import { createJournalEntry, getUserJournalEntries, getJournalEntryById, updateJournalEntry, deleteJournalEntry } from "./controllers/journal_entry.controller.js";
+import { createGameResult, getGameResultsForUser, getGameResultsByGame, getGameResultById, deleteGameResult } from "./controllers/game_result.controller.js";
+import { verifyJWT } from "./middlewares/auth.middleware.js";
+import { generateImage } from "./controllers/image_generation.controller.js";
 
 export const userRouter = Router();
 userRouter.route("/register").post(registerUser);
 userRouter.route("/login").post(loginUser);
 userRouter.route("/logout").post(verifyJWT, logoutUser);
 
+export const imageRouter = Router();
+imageRouter.route("/generate").post(generateImage);
 
 export const storyRouter = Router();
-gameRouter.use(verifyJWT);
+storyRouter.use(verifyJWT);
 storyRouter.route("/").post(createStory).get(getUserStories);
 storyRouter.route("/:storyId").get(getStoryById).patch(updateStory).delete(deleteStory);
 

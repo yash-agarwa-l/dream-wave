@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 const Schema = mongoose.Schema;
 
 const sleepMetricsSchema = new Schema({
@@ -34,4 +34,4 @@ const sleepSessionSchema = new Schema({
   },
 }, { timestamps: true });
 
-module.exports = mongoose.model('SleepSession', sleepSessionSchema);
+export const SleepSession = mongoose.model('SleepSession', sleepSessionSchema);

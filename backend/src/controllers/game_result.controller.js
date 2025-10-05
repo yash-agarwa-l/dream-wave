@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 import { asyncHandler } from "../utils/asyncHandler.util.js";
 import { ApiError } from "../utils/api_errors.util.js";
 import { ApiResponse } from "../utils/api_response.util.js";
-import { GameResult } from "../models/gameResult.model.js";
+import { GameResult } from "../models/game_result.model.js";
 import { Game } from "../models/game.model.js";
 
 const createGameResult = asyncHandler(async (req, res) => {
