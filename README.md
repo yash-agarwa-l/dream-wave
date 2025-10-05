@@ -155,6 +155,9 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+## Submissions
+https://drive.google.com/file/d/1utHJCGUlbewZQplzUiBkzFCXXZQ1slE7/view?usp=sharing
+
 ## Acknowledgements
 
 - Sleep pattern analysis inspired by research from the Sleep Research Society
