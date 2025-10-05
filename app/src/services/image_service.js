@@ -3,7 +3,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 // IMPORTANT: Replace this with your actual server's address.
 // If testing locally on an Android emulator, use 'http://10.0.2.2:PORT'.
 // If testing on a physical device, use your computer's local network IP address.
-const API_BASE_URL = 'http://localhost:8000/api/v1';
+const API_BASE_URL = 'https://5be93c060756.ngrok-free.app/api/v1';
 
 export const generateImageFromApi = async (prompt) => {
   try {
