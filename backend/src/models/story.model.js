@@ -15,9 +15,9 @@ const storySchema = new Schema({
   content: String,
   emotion: String,
   genre: String,
-  duration: String, // e.g., "15 min read"
+  duration: String, 
   rating: { type: Number, default: 0 },
-  isCompleted: { type: Boolean, default: false }, // If user has read it
+  isCompleted: { type: Boolean, default: false }, 
   theme: String,
 }, { timestamps: true });
 
